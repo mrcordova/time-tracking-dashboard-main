@@ -59,23 +59,31 @@
 }
 .name-con {
     background-color: var(--blue);
-    display: grid;
-   
+    
+   display: flex;
+   flex-direction: column;
     padding-inline-start: 2rem;
     padding-block: 1rem  4rem;
     color: var(--pale-blue);
 }
 .name-img>img {
-
+    min-height: 100%;
 }
+
 .name-img {
     
     padding-block-end: 1rem;
-    border: 1px solid var(--pale-blue);
+    border: 3px solid var(--pale-blue);
+    
     border-radius: 400px;
 }
 .name-head {
     font-size: 3rem;
+}
+
+.profile-con {
+    display: flex;
+    flex-direction: column;
 }
 .footer-con {
     grid-column: content;
