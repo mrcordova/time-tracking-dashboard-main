@@ -53,13 +53,30 @@
     gap: 1rem;
     
 }
-.user-con {
+.user-card {
    grid-row: 1 / span 2;
-   background-color: var(--blue);
+   background-color: var(--dark-blue);
 }
+.name-con {
+    background-color: var(--blue);
+    display: grid;
+   
+    padding-inline-start: 2rem;
+    padding-block: 1rem  4rem;
+    color: var(--pale-blue);
+}
+.name-img>img {
 
-
-
+}
+.name-img {
+    
+    padding-block-end: 1rem;
+    border: 1px solid var(--pale-blue);
+    border-radius: 400px;
+}
+.name-head {
+    font-size: 3rem;
+}
 .footer-con {
     grid-column: content;
     grid-row: content-end;
