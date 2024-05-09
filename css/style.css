@@ -1,3 +1,18 @@
 .body-grid {
     display: grid;
+    grid-template-columns: 1rem [content-start] 1fr [content-end] 1rem;
+    grid-template-rows: [content-start] 1fr [content-end] auto;
+}
+
+.main-con {
+ grid-column: content;
+ grid-row: content;
+ display: grid;
+ align-items: center;
+ justify-content: center;
+}
+
+.footer-con {
+    grid-column: content;
+    grid-row: content-end;
 }
