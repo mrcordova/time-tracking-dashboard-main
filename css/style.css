@@ -26,13 +26,14 @@
 
     display: grid;
     grid-template-columns: 
-        [main-content-col-start] repeat(4, 1fr)
+        [main-content-col-start] repeat(auto-fill, minmax(min(14.3rem, 100%), 1fr))
         [main-content-col-end];
 
     grid-template-rows: 
         [main-content-row-start] repeat(2, 1fr)
         [main-content-row-end];
     gap: 1rem;
+    
 }
 .user-con {
    grid-row: 1 / span 2;
