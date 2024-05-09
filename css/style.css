@@ -20,6 +20,8 @@
     --padding-block: 5rem;
     --content-max-width: 70rem;
     min-height: 100vh;
+
+    background-color: var(--very-dark-blue);
     
     display: grid;   
     grid-template-columns: 
@@ -53,6 +55,7 @@
 }
 .user-con {
    grid-row: 1 / span 2;
+   background-color: var(--blue);
 }
 
 
