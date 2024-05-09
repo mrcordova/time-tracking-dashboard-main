@@ -1,6 +1,7 @@
 .body-grid {
 
     --padding-inline: 2rem;
+    --padding-block: 5rem;
     --content-max-width: 60rem;
 
     display: grid;   
@@ -10,15 +11,32 @@
         [content-end] minmax(var(--padding-inline), 10rem)
         [padding-end];
     grid-template-rows: 
-        [padding-start] 100px 
-        [content-start] 1fr 
-        [content-end] 100px 
+        [padding-start] minmax(var(--padding-block), 10rem)
+        [content-start] auto
+        [content-end] minmax(var(--padding-block), 10rem)
         [padding-end];
 }
 
 .main-con {
+
+    --gap-val: 1rem;
+
     grid-column: content;
     grid-row: content;
+
+    display: grid;
+    grid-template-columns: 
+        [main-content-col-start] repeat(auto-fit, minmax(320px, 1fr))
+        [main-content-col-end];
+
+    grid-template-rows: 
+        [main-content-row-start] repeat(2, 1fr)
+        [main-content-row-end];
+    gap: 1rem;
+}
+
+.card {
+    
 }
 
 .footer-con {
