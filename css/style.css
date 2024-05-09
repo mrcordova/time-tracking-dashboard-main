@@ -1,16 +1,22 @@
 .body-grid {
     display: grid;
-    grid-template-columns: 1rem [content-start] 1fr [content-end] 1rem;
-    grid-template-rows: [content-start] 1fr [content-end] auto;
+    min-block-size: 100vh;
+    min-block-size: 100dvh;
+    grid-template-columns: 1rem [content-start] minmax(0, 1fr) [content-end] 1rem;
+    grid-template-rows: [content-start] minmax(0, 1fr) [content-end] auto;
 }
 
 .main-con {
- grid-column: content;
- grid-row: content;
- display: grid;
- align-items: center;
- justify-content: center;
+    grid-column: content;
+    grid-row: content;
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+    background-color: royalblue;
 }
+
+
 
 .footer-con {
     grid-column: content;
