@@ -68,17 +68,13 @@
 .name-con {
     background-color: var(--blue);
     border-radius: 20px;
-   display: flex;
-   flex-direction: column;
-    padding-inline-start: 2rem; 
-    padding-block: 1rem  8rem;
-    color: var(--pale-blue);
+   
 }
 .name-img {
     
     border: 3px solid var(--pale-blue);
     border-radius: 800px;
-    margin-block-end: 2rem;
+    
 
     
 }
