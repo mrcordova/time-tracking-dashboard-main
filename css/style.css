@@ -57,6 +57,13 @@
    grid-row: 1 / span 2;
    background-color: var(--dark-blue);
    border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.work-card {
+    display: flex;
+    background-color: var(--dark-blue);
 }
 .name-con {
     background-color: var(--blue);
