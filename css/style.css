@@ -56,10 +56,11 @@
 .user-card {
    grid-row: 1 / span 2;
    background-color: var(--dark-blue);
+   border-radius: 20px;
 }
 .name-con {
     background-color: var(--blue);
-    
+    border-radius: 20px;
    display: flex;
    flex-direction: column;
     padding-inline-start: 2rem; 
