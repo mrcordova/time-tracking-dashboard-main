@@ -12,6 +12,8 @@
 --dark-blue: hsl(235, 46%, 20%);
 --desaturated-blue: hsl(235, 45%, 61%);
 --pale-blue: hsl(236, 100%, 87%);
+
+--body-font-size: 18px;
 }
 
 .body-grid {
@@ -59,12 +61,15 @@
    border-radius: 20px;
    display: flex;
    flex-direction: column;
+
 }
 .time-frame-con {
 display: flex;
 flex-direction: column;
 
 flex: 1;
+padding-inline-start: 2rem;
+padding-block: 2rem;
 
 }
 .time-frame-con>h2 {
@@ -82,6 +87,8 @@ flex: 1;
 .name-con {
     background-color: var(--blue);
     border-radius: 20px;
+    padding-inline-start: 2rem;
+    padding-block-start: 2rem;
    flex: 2;
    display: flex;
    flex-direction: column;
@@ -97,14 +104,15 @@ flex: 1;
     font-size: 3rem;
 }
 
-.profile-con {
-    
-    
-}
+
 .footer-con {
     grid-column: content;
     grid-row: content-end;
     align-self: flex-end;
+}
+
+.profile-con {
+    padding-block-start: 2rem;
 }
 
 @media (max-width: 760px) {
