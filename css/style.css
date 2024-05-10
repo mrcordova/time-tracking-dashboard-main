@@ -57,12 +57,10 @@
    grid-row: 1 / span 2;
    background-color: var(--dark-blue);
    border-radius: 20px;
-
-   
-   /* display: flex;
-   flex-direction: column; */
+   display: flex;
+   flex-direction: column;
 }
-/* .time-frame-con {
+.time-frame-con {
 display: flex;
 flex-direction: column;
 
@@ -70,11 +68,12 @@ flex: 1;
 
 }
 .time-frame-con>h2 {
-
+display: flex;
+flex-direction: column;
 
 flex: 1;
 
-} */
+}
 
 .work-card {
     
@@ -83,7 +82,9 @@ flex: 1;
 .name-con {
     background-color: var(--blue);
     border-radius: 20px;
-   /* flex: 2; */
+   flex: 2;
+   display: flex;
+   flex-direction: column;
 }
 .name-img {
     
@@ -108,6 +109,10 @@ flex: 1;
 
 @media (max-width: 760px) {
     .time-frame-con {
+        flex-direction: row;
+    }
+
+    .name-con {
         flex-direction: row;
     }
 }
