@@ -75,7 +75,7 @@ padding-block: 2rem;
 .time-frame-con>h2 {
 display: flex;
 flex-direction: column;
-
+color: var(--desaturated-blue);
 flex: 1;
 
 }
@@ -118,6 +118,7 @@ flex: 1;
 @media (max-width: 760px) {
     .time-frame-con {
         flex-direction: row;
+        
     }
 
     .name-con {
