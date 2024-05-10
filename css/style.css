@@ -126,9 +126,9 @@ input[type="radio"]:checked + label {
     justify-content: flex-end;
 }
 .work-card-text {
-    background-color: aqua;
+    background-color: var(--dark-blue);
     height: 80%;
-   border-radius: 20px;
+   border-radius: 15px;
 }
 
 .footer-con {
