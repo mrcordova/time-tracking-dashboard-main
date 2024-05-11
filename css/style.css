@@ -217,7 +217,7 @@ input[type="radio"]:checked + label {
     .prev-time {
         padding: 0;
     }
-    .work-time-con {
+    .time-con {
     
         flex-direction: row;
         justify-content: space-between;
@@ -226,7 +226,7 @@ input[type="radio"]:checked + label {
         min-width: 0;
         
     }
-    .work-ells-con {
+    .ells-con {
         padding: 0rem;
         padding-block-start: 2rem;
         padding-inline: 2rem;
