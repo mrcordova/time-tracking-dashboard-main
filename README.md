@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-How learned how to work with css grid and flexbox together. I also learned how to have multiple hover effects on a parent and child element.
+I learned how to work with css grid and flexbox together. I also learned how to have multiple hover effects on a parent and child element.
 
 ### Continued development
 
