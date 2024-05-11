@@ -112,8 +112,17 @@ input[type="radio"]:checked + label {
     
 }
 .name-head {
-    color: white;
+
     font-size: clamp(0.5rem, calc(1.5rem + 1.5vw), 3rem);
+}
+
+.time  {
+    font-size: clamp(0.5rem, calc(1rem + 1.5vw), 3rem);
+}
+
+.prev-time {
+    padding-block-start: 0.5rem;
+    font-size: 0.75rem;
 }
 
 .work-card {
@@ -124,22 +133,34 @@ input[type="radio"]:checked + label {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    color: white;
+    min-height: 100%;
+
 }
 .work-card-text {
     background-color: var(--dark-blue);
-    height: 80%;
+    
    border-radius: 15px;
    display: flex;
    flex-direction: column;
+   height: 80%;
+  
    
 }
 .work-ells-con {
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+   
 }
 .work-time-con {
     display: flex;
     flex-direction: column;
+   padding: 2rem;
+   margin-block-end: 1rem;
+  
+  
+  
 }
 .footer-con {
     grid-column: content;
@@ -167,6 +188,24 @@ input[type="radio"]:checked + label {
         padding-inline-start: 1rem;
         flex: 1;
     
+    }
+    .prev-time {
+        padding: 0;
+    }
+    .work-time-con {
+    
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-block-start: 0.5rem;
+        min-width: 0;
+        
+    }
+    .work-ells-con {
+        padding: 0rem;
+        padding-block-start: 2rem;
+        padding-inline: 2rem;
+        
     }
 }
 
