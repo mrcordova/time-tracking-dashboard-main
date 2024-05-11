@@ -125,11 +125,28 @@ input[type="radio"]:checked + label {
     font-size:  clamp(0.25rem, calc(0.65rem + 0.05vw), 0.75rem);
 }
 
+.work {
+        background: var(--light-orange) url('/images/icon-work.svg') right 0% top 0% no-repeat local;
+}
+.play {
+        background: var(--soft-blue) url('/images/icon-play.svg') right 0% top 0% no-repeat local;
+}
+.study {
+        background: var(--light-red) url('/images/icon-study.svg') right 0% top 0% no-repeat local;
+}
+.excercise {
+        background: var(--lime-green) url('/images/icon-exercise.svg') right 0% top 0% no-repeat local;
+}
+.social {
+        background: var(--violet) url('/images/icon-social.svg') right 0% top 0% no-repeat local;
+}
+.self-care {
+        background: var(--soft-orange) url('/images/icon-self-care.svg') right 0% top 0% no-repeat local;
+}
 
-.work-card {
+.card {
 
     /* background-color: var(--dark-blue); */
-    background:  var(--light-orange) url('/images/icon-work.svg') right 0% top 0% no-repeat local;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -139,11 +156,12 @@ input[type="radio"]:checked + label {
     
 
 }
-.work-card-text {
+.card-text {
     background-color: var(--dark-blue);
     
    border-radius: 15px;
    display: flex;
+
    flex-direction: column;
    width: 100%;
    max-width: 100%;
@@ -151,7 +169,7 @@ input[type="radio"]:checked + label {
     max-height: 80%;
    
 }
-.work-ells-con {
+.ells-con {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,11 +177,12 @@ input[type="radio"]:checked + label {
     padding-block-end: 0;
    
 }
-.work-time-con {
+.time-con {
     display: flex;
     flex-direction: column;
    padding: 2rem;
    margin-block-end: 1rem;
+  
   
   
   
