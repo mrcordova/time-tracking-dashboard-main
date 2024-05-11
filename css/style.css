@@ -131,8 +131,16 @@ input[type="radio"]:checked + label {
    border-radius: 15px;
    display: flex;
    flex-direction: column;
+   
 }
-
+.work-ells-con {
+    display: flex;
+    justify-content: space-between;
+}
+.work-time-con {
+    display: flex;
+    flex-direction: column;
+}
 .footer-con {
     grid-column: content;
     grid-row: content-end;
