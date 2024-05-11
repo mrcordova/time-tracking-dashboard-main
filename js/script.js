@@ -10,8 +10,11 @@ for (const timeOption of timeOptions) {
 }
 
 window.addEventListener('load', () => { 
-    console.log(currentTimeFrame);
+    
     for (const info of data) {
-        console.log(info);
+        const title = info['title'].replaceAll(new RegExp('\\s+', 'g'), '-').toLowerCase();
+        const card = document.querySelector(`.card.${title}`);
+        
+        
     }
 })
