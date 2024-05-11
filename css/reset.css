@@ -137,7 +137,7 @@ q:after {
 
 img,
 picture {
-    max-width: 100%;
+    max-inline-size: 100%;
     display: block;
 }
 
