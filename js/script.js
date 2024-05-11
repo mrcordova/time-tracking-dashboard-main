@@ -1,3 +1,8 @@
 import data from '../data.json' with {type: 'json'};
 
-console.log(data);
+window.addEventListener('load', () => { 
+    console.log(document.querySelector('.time-option:checked').id);
+    for (const info of data) {
+        console.log(info);
+    }
+})
