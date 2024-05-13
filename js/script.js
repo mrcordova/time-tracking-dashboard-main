@@ -28,5 +28,3 @@ function repopulateCards() {
     
     }
 } 
-// https://mrcordova.github.io/time-tracking-dashboard-main/data.json
-// https://mrcordova.github.io/time-tracking-dashboard-main/js/script.js

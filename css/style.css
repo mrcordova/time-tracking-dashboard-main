@@ -128,22 +128,22 @@ input[type="radio"]:checked + label {
 }
 
 .work {
-        background: var(--light-orange) url('/images/icon-work.svg') right 0% top 0% no-repeat local;
+        background: var(--light-orange) url('../images/icon-work.svg') right 0% top 0% no-repeat local;
 }
 .play {
-        background: var(--soft-blue) url('/images/icon-play.svg') right 0% top 0% no-repeat local;
+        background: var(--soft-blue) url('../images/icon-play.svg') right 0% top 0% no-repeat local;
 }
 .study {
-        background: var(--light-red) url('/images/icon-study.svg') right 0% top 0% no-repeat local;
+        background: var(--light-red) url('../images/icon-study.svg') right 0% top 0% no-repeat local;
 }
 .exercise {
-        background: var(--lime-green) url('/images/icon-exercise.svg') right 0% top 0% no-repeat local;
+        background: var(--lime-green) url('../images/icon-exercise.svg') right 0% top 0% no-repeat local;
 }
 .social {
-        background: var(--violet) url('/images/icon-social.svg') right 0% top 0% no-repeat local;
+        background: var(--violet) url('../images/icon-social.svg') right 0% top 0% no-repeat local;
 }
 .self-care {
-        background: var(--soft-orange) url('/images/icon-self-care.svg') right 0% top 0% no-repeat local;
+        background: var(--soft-orange) url('../images/icon-self-care.svg') right 0% top 0% no-repeat local;
 }
 
 .card {
