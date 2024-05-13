@@ -27,4 +27,6 @@ function repopulateCards() {
         prevTimePara.textContent = `Last ${currentTimeFrame} - ${timeFramesObj.previous}hrs`;
     
     }
-}
+} 
+// https://mrcordova.github.io/time-tracking-dashboard-main/data.json
+// https://mrcordova.github.io/time-tracking-dashboard-main/js/script.js
